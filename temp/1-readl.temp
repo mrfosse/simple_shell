@@ -1,0 +1,23 @@
+#include "lib.h"
+
+/**
+ * _readl - reads the input from stdin.
+ * Return: returns the line that it read.
+ */
+
+char *_readl(void)
+{
+	int test;
+	char *l;
+	ssize_t b_size;
+
+	line = NULL;
+	b_size = 0;
+	test = getline(&l, &b_size, stdin);
+	if (test == -1)
+	{
+		fprintf(stderr, ">$: allocation error in readl.\n");
+		exit(EXIT_FAILURE);
+	}
+	return (l);
+}

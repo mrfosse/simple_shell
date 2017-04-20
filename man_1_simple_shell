@@ -1,0 +1,22 @@
+.TH man 1 "19 April 2017" "0.1" "HSH man page"
+.SH NAME
+.B Holberton simple shell HSH -
+A simple shell based off of sh or bash.
+.SH SYNOPSIS
+hsh : has a few simple commands;
+.SH DESCRIPTION
+A recreation of the shell as a project for Holberton School.
+.SH BUILT-INS
+.br
+1. help		lists available commands.
+.br
+2. exit		exits the shell.
+.br
+3. cd           changes directory.
+.br
+.SH SEE ALSO
+.I sh, bash, exeev, execbp, execve.
+.SH BUGS
+to be added.
+.SH AUTHOR
+Stuart Fosse, see AUTHORS file for more detail.
